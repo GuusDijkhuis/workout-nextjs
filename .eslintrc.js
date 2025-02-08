@@ -15,15 +15,7 @@ export default {
     'sonarjs',
     'jsx-a11y',
   ],
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:@typescript-eslint/recommended-type-checked',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'plugin:typescript-sort-keys/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended', 'plugin:react/jsx-runtime', 'plugin:@typescript-eslint/recommended-type-checked', 'plugin:@typescript-eslint/recommended-requiring-type-checking', 'plugin:typescript-sort-keys/recommended', 'plugin:storybook/recommended'],
   ignorePatterns: [
     '.eslintrc.js',
     '!.*',

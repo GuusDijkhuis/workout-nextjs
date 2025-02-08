@@ -3,7 +3,7 @@
 import { Heading } from "@/components/Heading";
 import { Icon } from "@/components/Icon";
 import { Text } from "@/components/Text";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/button/Button";
 
 const Home = () => (
   <div className="flex flex-col gap-4">
