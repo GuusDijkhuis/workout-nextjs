@@ -4,11 +4,11 @@ import { cn } from "@/utils/cn";
 const headingVariants = cva("", {
   variants: {
     size: {
-      1: "text-headingXl",
-      2: "text-headingLg",
-      3: "text-headingMd",
-      4: "text-headingSm",
-      5: "text-headingXs",
+      1: "text-heading-xl",
+      2: "text-heading-lg",
+      3: "text-heading-md",
+      4: "text-heading-sm",
+      5: "text-heading-xs",
     },
   },
   defaultVariants: {
@@ -35,7 +35,8 @@ export const Heading = ({
   });
 
   return (
-    <p className={`${className} ${cn(headingVariants({ size }))}`}>
+    <p className={`${className} ${cn(headingVariants({ size }))}
+    `}>
       {children}
     </p>
   );
