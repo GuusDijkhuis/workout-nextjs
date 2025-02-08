@@ -73,6 +73,16 @@ export default {
               "Please use a clean path like: '@/components/something' instead of '../components/something'.",
           },
         ],
+        paths: [
+          {
+            name: 'clsx',
+            importNames: [
+              'clsx',
+            ],
+            message:
+              'Import cn from @/utils/cn ',
+          },
+        ],
       },
     ],
     'no-restricted-syntax': [

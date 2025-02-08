@@ -1,6 +1,5 @@
 import { cva, type VariantProps } from "class-variance-authority";
-import clsx from "clsx";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 
 const headingVariants = cva("", {
   variants: {
@@ -30,7 +29,7 @@ export const Heading = ({
   italic = false,
   size = 3,
 }: TextProps) => {
-  const className = clsx("font-inter font-bold", {
+  const className = cn("font-inter font-bold", {
     "underline decoration-solid decoration-2 decoration-current": underline,
     italic: italic,
   });

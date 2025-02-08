@@ -1,6 +1,5 @@
 import { cva, type VariantProps } from "class-variance-authority";
-import clsx from "clsx";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 
 type Size = "xs" | "sm" | "md" | "lg" | "xl";
 
@@ -34,7 +33,7 @@ export const Text = ({
   italic = false,
   size = "md",
 }: TextProps) => {
-  const className = clsx("font-inter", {
+  const className = cn("font-inter", {
     "font-bold": bold,
     "underline decoration-solid decoration-2 decoration-current": underline,
     italic: italic,
