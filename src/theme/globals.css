@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import './tokens/boxShadow.css';
+@import './tokens/colors.css';
+@import './tokens/fontSize.css';
+@import './tokens/radii.css';
+@import './tokens/spacing.css';
+@import './tokens/font.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-inter: Inter, sans-serif;
+}
+
+

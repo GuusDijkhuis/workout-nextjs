@@ -1,0 +1,18 @@
+@theme {
+    --shadow-xs: 0px 2px 4px -2px rgb(19, 25, 39, 0.12),
+    0px 4px 4px -2px rgb(19, 25, 39, 0.08);
+    --shadow-sm: 0px 4px 6px -4px rgb(19, 25, 39, 0.12),
+    0px 8px 8px -4px rgb(19, 25, 39, 0.08);
+    --shadow-md: 0px 6px 8px -6px rgb(19, 25, 39, 0.12),
+    0px 8px 16px -6px rgb(19, 25, 39, 0.08);
+    --shadow-lg: 0px 6px 12px -6px rgb(19, 25, 39, 0.12),
+    0px 8px 24px -4px rgb(19, 25, 39, 0.08);
+    --shadow-xl: 0px 6px 14px -6px rgb(19, 25, 39, 0.12),
+    0px 10px 32px -4px rgb(19, 25, 39, 0.1);
+    --shadow-2xl: 0px 8px 18px -6px rgb(19, 25, 39, 0.12),
+    0px 12px 42px -4px rgb(19, 25, 39, 0.12);
+    --shadow-3xl: 0px 8px 22px -6px rgb(19, 25, 39, 0.12),
+    0px 14px 64px -4px rgb(19, 25, 39, 0.12);
+    --shadow-4xl: 0px 8px 28px -6px rgb(19, 25, 39, 0.12),
+    0px 18px 88px -4px rgb(19, 25, 39, 0.14);
+}

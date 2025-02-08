@@ -1,0 +1,23 @@
+@theme {
+    --text-*: initial;
+    --text-heading-xs: 24px;
+    --text-heading-xs--line-height: 28px;
+    --text-heading-sm: 28px;
+    --text-heading-sm--line-height: 34px;
+    --text-heading-md: 32px;
+    --text-heading-md--line-height: 38px;
+    --text-heading-lg: 40px;
+    --text-heading-lg--line-height: 48px;
+    --text-heading-xl: 48px;
+    --text-heading-xl--line-height: 58px;
+    --text-body-xs: 10px;
+    --text-body-xs--line-height: 14px;
+    --text-body-sm: 12px;
+    --text-body-sm--line-height: 16px;
+    --text-body-md: 14px;
+    --text-body-md--line-height: 20px;
+    --text-body-lg: 16px;
+    --text-body-lg--line-height: 28px;
+    --text-body-xl: 18px;
+    --text-body-xl--line-height: 28px;
+}
