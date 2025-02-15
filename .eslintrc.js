@@ -74,6 +74,14 @@ export default {
             message:
               'Import cn from @/utils/cn ',
           },
+          {
+            name: '@/components/ui/typography/Text',
+            importNames: [
+              'Text',
+            ],
+            message:
+              'Import Phrase or Heading from @/components/uit/typography/...',
+          },
         ],
       },
     ],

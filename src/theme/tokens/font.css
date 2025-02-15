@@ -10,7 +10,6 @@
     font-weight: 400;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter-Medium.woff') format('woff');
@@ -23,8 +22,6 @@
     font-weight: 500;
     font-style: italic;
 }
-
-
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter-SemiBold.woff') format('woff');
@@ -37,7 +34,6 @@
     font-weight: 500;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter-Bold.woff') format('woff');
@@ -50,7 +46,6 @@
     font-weight: 600;
     font-style: italic;
 }
-  
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter-ExtraBold.woff') format('woff');
@@ -63,7 +58,6 @@
     font-weight: 700;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter-Black.woff') format('woff');
