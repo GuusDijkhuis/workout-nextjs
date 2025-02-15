@@ -1,4 +1,4 @@
-import { ChevronRight } from "@/components/icon/ChevronRight";
+import { ChevronRight } from "@/components/ui/icon/ChevronRight";
 
 export const SIZE_MAP = {
   xs: "h-2 w-2",

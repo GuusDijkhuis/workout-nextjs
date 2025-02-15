@@ -3,7 +3,7 @@ import {
   type Color,
   type IconName,
   ICON_MAP,
-} from "@/components/icon/types";
+} from "@/components/ui/icon/types";
 
 type Props = {
   color?: Color;

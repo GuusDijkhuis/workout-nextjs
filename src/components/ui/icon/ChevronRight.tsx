@@ -1,5 +1,5 @@
-import { Size, SIZE_MAP } from "@/components/icon/types"
-import { type Color, COLOR_MAP } from "@/components/icon/types"
+import { Size, SIZE_MAP } from "@/components/ui/icon/types"
+import { type Color, COLOR_MAP } from "@/components/ui/icon/types"
 import { cn } from "@/utils/cn";
 
 
